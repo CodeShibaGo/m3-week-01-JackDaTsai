@@ -1,6 +1,7 @@
 import unittest
 from count_sheep import count_sheep
 
+
 class TestCountSheep(unittest.TestCase):
 
     def test_count_sheep_1(self):
@@ -17,6 +18,7 @@ class TestCountSheep(unittest.TestCase):
 
     def test_count_sheep_5(self):
         self.assertEqual(count_sheep([True, False, True, True, False]), 3)
+
 
 if __name__ == '__main__':
     unittest.main()

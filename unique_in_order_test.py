@@ -1,6 +1,7 @@
 import unittest
 from unique_in_order import unique_in_order
 
+
 class TestUniqueInOrder(unittest.TestCase):
 
     def test_empty_input(self):
@@ -13,6 +14,7 @@ class TestUniqueInOrder(unittest.TestCase):
 
     def test_list_input(self):
         self.assertEqual(unique_in_order(['A', 'A', 'B', 'C', 'C', 'D']), ['A', 'B', 'C', 'D'])
+
 
 if __name__ == '__main__':
     unittest.main()
