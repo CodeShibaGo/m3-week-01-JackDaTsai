@@ -1,6 +1,7 @@
 import unittest
 from calculate_average import calculate_average
 
+
 class TestCalculateAverage(unittest.TestCase):
 
     def test_calculate_average_1(self):
@@ -11,6 +12,7 @@ class TestCalculateAverage(unittest.TestCase):
 
     def test_calculate_average_3(self):
         self.assertEqual(calculate_average([3, 7, 21, 13]), 11.0)
+
 
 if __name__ == '__main__':
     unittest.main()
