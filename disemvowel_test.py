@@ -1,7 +1,6 @@
 import unittest
 from disemvowel import disemvowel
 
-
 class TestDisemvowel(unittest.TestCase):
 
     def test_disemvowel_1(self):
@@ -12,7 +11,6 @@ class TestDisemvowel(unittest.TestCase):
 
     def test_disemvowel_3(self):
         self.assertEqual(disemvowel("AEIOUaeiou"), "")
-
 
 if __name__ == '__main__':
     unittest.main()

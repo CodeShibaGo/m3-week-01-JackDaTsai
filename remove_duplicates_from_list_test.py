@@ -1,7 +1,6 @@
 import unittest
 from remove_duplicates_from_list import distinct
 
-
 class TestRemoveDuplicatesFromList(unittest.TestCase):
 
     def test_distinct(self):
@@ -10,7 +9,6 @@ class TestRemoveDuplicatesFromList(unittest.TestCase):
         self.assertEqual(distinct([1, 1, 1, 1, 1]), [1])
         self.assertEqual(distinct([5, 4, 3, 2, 1]), [5, 4, 3, 2, 1])
         self.assertEqual(distinct([]), [])
-
 
 if __name__ == '__main__':
     unittest.main()
