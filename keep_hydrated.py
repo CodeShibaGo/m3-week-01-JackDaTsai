@@ -1,2 +1,3 @@
 def litres(time):
-    pass
+    # pass
+    return int(time / 2)

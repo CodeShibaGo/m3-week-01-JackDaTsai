@@ -1,6 +1,7 @@
 import unittest
 from count_duplicates import count_duplicates
 
+
 class TestCountingDuplicates(unittest.TestCase):
 
     def test_empty_string(self):
@@ -17,6 +18,7 @@ class TestCountingDuplicates(unittest.TestCase):
 
     def test_mixed_cases(self):
         self.assertEqual(count_duplicates("Indivisibilities"), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
