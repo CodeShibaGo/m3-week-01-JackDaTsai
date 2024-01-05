@@ -1,4 +1,3 @@
 def age_difference(ages):
-    # pass
-    ages.sort()
-    return ages[0], ages[-1]
+    sorted_ages = sorted(ages)
+    return sorted_ages[0], sorted_ages[-1]
